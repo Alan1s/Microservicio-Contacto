@@ -8,6 +8,7 @@ import com.example.demo.repositories.ContactoRepository;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ContactoService {
     @Autowired
     private ContactoRepository contactoRepository;
